@@ -1,0 +1,6 @@
+[Unit]
+Description=Monitor RAM usage
+
+[Service]
+Type=oneshot
+ExecStart=/home/sysadmin/Desktop/ejercicios/monitor_ram.sh
