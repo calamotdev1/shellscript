@@ -1,7 +1,7 @@
 #!/bin/bash
 
 escribir_log() {
-    local mensaje=$1
+    local mensaje="$1"
     echo "[$(date)] - $mensaje"
 }
 

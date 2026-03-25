@@ -4,8 +4,8 @@ RESULTADO=0
 
 sumar() {
     local SUMA=$(( $1 + $2 ))
-    echo $SUMA
+    echo "$SUMA"
 }
 
 sumar 5 3
-echo $RESULTADO
+echo "$RESULTADO"
